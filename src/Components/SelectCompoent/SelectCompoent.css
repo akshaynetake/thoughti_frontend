@@ -1,0 +1,6 @@
+.select-dropdown {
+    padding: 15px 10px;
+    font-size: var(--fontSize);
+    min-width: 100px;
+    cursor: pointer;
+}

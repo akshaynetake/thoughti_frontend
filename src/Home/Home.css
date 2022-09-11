@@ -1,0 +1,98 @@
+:root {
+    --fontSize: 14px;
+}
+
+.font-size-rep {
+    font-size: var(--fontSize);
+}
+
+.home-contianer {
+    max-width: 800px;
+    padding: 60px 10px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 4em;
+    position: relative;
+}
+
+.heading-contianer {
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+    top: -31px;
+    padding: 0 10px;
+}
+
+.add-task-contianer {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    padding-bottom: 2em;
+    border-bottom: 2px solid lightgrey;
+}
+
+.dis-input {
+    padding: 15px 10px;
+    font-size: var(--fontSize);
+    min-width: 200px;
+    text-transform: capitalize;
+}
+
+.date-input {
+    padding: 15px 10px;
+    font-size: var(--fontSize);
+}
+
+.falg-heighlight {
+    width: 30px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.submit-button {
+    padding: 15px 10px;
+    font-size: var(--fontSize);
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: unset;
+}
+
+.dis-inout-bottom-contianer {
+    font-size: var(--fontSize);
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-element {
+    width: 100%;
+    margin-top: 2em;
+}
+
+.table-element,
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table-element,
+th,
+td {
+    padding: 20px 0;
+    background-color: #F5F5F5;
+}
+
+.table-element th {
+    background-color: #6C6C6C;
+    color: white;
+}
+
+.delete-icon {
+    cursor: pointer;
+}
+
+.table-row {
+    text-align: center;
+}
